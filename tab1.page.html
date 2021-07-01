@@ -1,0 +1,126 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <p class="t">Kellog Panama Business Institute</p> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [scrollEvents]="true" (ionScrollStart)="logScrollStart($event)" (ionScroll)="logScrolling($event)"
+  (ionScrollEnd)="logScrollEnd($event)" class="ion-padding">
+
+  <div>
+    <p class="p1" id='beg'>Beginning</p>
+    <p class="p2">Kellog Panama Business Institute is a non-public university with a business-oriented program. In the
+      offer of the institution there are bachelor’s degree, including reputable MBA co-created with business partners.
+    </p>
+  </div>
+
+  <div>
+    <p class="p1" id="mis">Mission</p>
+    <p class="p2">We are committed to educating and developing leaders of enterprises who create value for their
+      stakeholders and society at large. We are equally committed to developing new scholars and teachers, and to
+      creating and disseminating pathbreaking knowledge. </p>
+    <p class="p1" id="vis">Vision</p>
+    <p class="p2">Developing ideas and leaders that transform the world—from the very center of business.</p>
+  </div>
+
+  <div>
+    <p class="p1" id="eve">Events</p>
+    <p class="p2">1.Future Entrepreneurs:</p>
+    <ion-img class="bor" src="assets/nenestudian.jpg"></ion-img>
+    <p class="p2">2.Family Day:</p>
+    <ion-img src="assets/ejercicio.png"></ion-img>
+    <p class="p2">3.Entrepreneurship Day:</p>
+    <ion-img class="bor" src="assets/familiaworking.jpg"></ion-img>
+  </div>
+
+  <div>
+    <p class="p1" id='staff'>Staff</p>
+    <p class="p2">President or chancellor: </p>
+    <ion-img class="work" src="assets/aryeri.jpg"></ion-img>
+    <p class="p3">Aryeri Andrión</p>
+  </div>
+
+  <div>
+    <p class="p2">Provost:</p>
+    <ion-img class="work" src="assets/adaelys.jpg"></ion-img>
+    <p class="p3">Adaelys Campos</p>
+  </div>
+
+  <div>
+    <p class="p1">Outstanding Professors</p>
+    <p class="p2">International Business:</p>
+    <ion-img class="work" src="assets/siria.jpg"></ion-img>
+    <p class="p3">Siria Oda</p>
+  </div>
+
+  <div>
+    <p class="p2">Business Administration:</p>
+    <ion-img class="work" src="assets/grecia.jpg"></ion-img>
+    <p class="p3">Grecia Ventura</p>
+  </div>
+
+  <div>
+    <p class="p2">Marketing:</p>
+    <ion-img class="work" src="assets/karol.jpg"></ion-img>
+    <p class="p3">Karol Becerra</p>
+  </div>
+
+  <div>
+    <p class="p2">Finance:</p>
+    <ion-img class="work" src="assets/julieth.jpg"></ion-img>
+    <p class="p3">Julieth Acuña</p>
+  </div>
+
+  <div>
+    <p class="p2">Economics:</p>
+    <ion-img class="work" src="assets/pocho.jpg"></ion-img>
+    <p class="p3">Amir Alveo</p>
+  </div>
+
+  <div>
+    <p class="p2">Student President</p>
+    <ion-img class="work" src="assets/gust.jpg"></ion-img>
+    <p class="p3">Gustavo Navarro</p>
+  </div>
+
+  <div>
+    <p class="p2">Debate Conference Leader:</p>
+    <ion-img class="work" src="assets/xionelly.jpg"></ion-img>
+    <p class="p3">Xionelly Carrera</p>
+  </div>
+
+  <div>
+    <p class="p1" id='about'>Contact Us</p>
+    <p class="p2">Kellog Panama Business Institute is a non-public university with a business-oriented program. In the
+      offer of the institution there are bachelor’s degree, including reputable MBA co-created with business partners.
+    </p>
+  </div>
+
+  <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+    <ion-fab-button color="light">
+      <ion-icon md="caret-back" ios="chevron-back-circle-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-button class="links" (click)="ScrollToAbout()">
+        Contact Us
+      </ion-button>
+      <ion-button class="links" (click)="ScrollToSta()">
+        Staff
+      </ion-button>
+      <ion-button class="links" (click)="ScrollToEve()">
+        Events
+      </ion-button>
+      <ion-button class="links" (click)="ScrollToVis()">
+        Vision
+      </ion-button>
+      <ion-button class="links" (click)="ScrollToMis()">
+        Mission
+      </ion-button>
+      <ion-button class="links" (click)="scrollToBeg()">
+        Beginning
+      </ion-button>
+    </ion-fab-list>
+  </ion-fab>
+
+
+</ion-content>

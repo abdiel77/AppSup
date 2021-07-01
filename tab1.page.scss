@@ -1,0 +1,78 @@
+.t {
+    font-size: 17px;
+    text-align: start;
+    color: white;
+}
+.p1 {
+    font-family: 'Domine';
+    font-size: 23px;
+    font-weight: bolder;
+    color: #2F4650;
+}
+.p2 {
+    font-family: 'Domine';
+    font-size: 19px;
+    color: #2F4650;
+}
+.p3 {
+    font-family: 'Domine';
+    font-size: 19px;
+    color: #4b5a61;
+    text-align: center;
+    
+}
+
+.work {
+    -webkit-border-radius: 33px 0px 36px 0px;
+    -moz-border-radius: 33px 0px 36px 0px;
+    border-radius: 33px 0px 36px 0px;
+}
+
+ion-text {
+    color: black;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.links {
+    border: 0px solid #1C6EA4;
+    border-radius: 40px;
+    height: 20px;
+    width: 63px;
+    color: white;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.bor {
+    border-radius: 15px 50px;
+}
+.card-background-page {
+    
+    ion-card {
+    position: relative;
+    text-align: center;
+    }
+
+    .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+    }
+
+    .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+    }
+
+   ion-img {
+        height: 41%;
+        width: 3%;
+    }
+}
